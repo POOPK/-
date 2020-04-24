@@ -1,0 +1,16 @@
+1.运行运行GUI_demo.py
+2.我用的是Chrome浏览器 用的Chromedriver要和浏览器版本对应 你可以使用别的浏览器和自动化测试软件来使用selenium模块
+	我里面附了一个81版本的Chrome的Chromedriver 和自己的版本不一样是不能用的
+	路径可以自己改
+3.没有打包成exe
+4.Demo.py里面的文件有个要你自己写上账号和密码具体为:
+        wb.find_element_by_xpath('//input[@id="login_name"]').send_keys(这里填上你的账号)
+        wb.find_element_by_xpath('//input[@id="password"]').send_keys(这里填上你的密码)
+5.不要开多个线程来写一个文件
+6.里面有自动签到功能 挂着就好了
+7.技术有限 见谅
+8.里面有一个结果了
+9.保存数据格式最好为csv
+10.模块没有自己pip install 
+
+吃屎吧梁非凡 别和老师讲 尤其是自动签到
